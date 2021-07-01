@@ -1,0 +1,43 @@
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 15rem;
+  margin: 100px
+}
+img{
+  width: 150px;
+}
+#count{
+  margin-left: 5px;
+  font-size: x-large;
+  font-weight: 400;
+}
+
+.buy-container{
+  display: flex;
+  width: 200px;
+  height: 40px;
+  justify-content: center;
+}
+
+.buy{
+  color: white;
+  background-color: purple;
+  border-radius: 5px;
+  width: 90%;
+  flex-grow: 3;
+}
+.number-buy{
+  width: 30%;
+  margin-left: 10px;
+  text-align: center;
+}
+
+.comments{
+  border: 1px solid black;
+  margin: 10px 0;
+  padding: 10px
+}
+
